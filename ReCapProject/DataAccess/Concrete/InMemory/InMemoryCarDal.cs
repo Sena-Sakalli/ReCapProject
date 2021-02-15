@@ -14,7 +14,7 @@ namespace DataAccess.Concrete.InMemory
         List<Car> _cars;
         public InMemoryCarDal()//constructor-ctor-
         {
-            _cars = new List<Car> 
+            _cars = new List<Car>
             {
                 new Car {Id=1, BrandId=20, ColorId=10, ModelYear=2020, DailyPrice=250, Description="Auid"},
                 new Car {Id=2, BrandId=21, ColorId=11, ModelYear=2002, DailyPrice=100, Description="BMW"},
